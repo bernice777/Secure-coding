@@ -84,12 +84,11 @@ npm install
 ### 환경 변수 설정
 `.env` 파일을 프로젝트 루트에 생성하고 다음 환경 변수를 설정하세요:
 
-``` 물론 임시로 제 파일 넣었습니다. 중앙에서 결제한걸 수수료 떼고 판매자에게 돈을 송금함.. 
 NODE_ENV=development
-SESSION_SECRET=your_session_secret
-STRIPE_SECRET_KEY=your_stripe_secret_key
-VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key
-```
+SESSION_SECRET="a98s7g9aw-91q7gqf1-217tgf@3r13r1"
+VITE_STRIPE_PUBLIC_KEY=pk_test_51RHJYfFxCWbNyYzWrWhYJzYoU2ELxNmS8iAS67KhqGcYNIpUEzDanw2Ms0kOMaPrCLhWPWWUicb3dW2yRkFRLNQm00Xkm1DdKw
+STRIPE_SECRET_KEY=sk_test_51RHJYfFxCWbNyYzWGiE6BSjPncwbR5yuVrSB4cj0tnqC7MXIkN6fDdHMHxqDwTPe8HUL0aSdljoczcCOpP1HWIai007Ntgfzc2
+
 
 ### 실행
 
